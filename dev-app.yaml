@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<your-username>/<repo>.git
+    repoURL: https://github.com/shovalmalachi/argoCD1.git
     targetRevision: main
-    path: argo1/overlays/dev
+    path: overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
